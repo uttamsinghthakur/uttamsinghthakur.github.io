@@ -69,5 +69,5 @@ footer { opacity: .8 }
 
 /* Left-aligned profile with highlighted border */
 .header-flex { display:flex; gap:18px; align-items:center }
-.profile-img-left { width:120px; height:120px; object-fit:cover; border-radius:50%; border:4px solid rgba(6,182,212,0.18); padding:3px; box-shadow: 0 10px 30px rgba(6,182,212,0.08); }
+.profile-img-left { width:80px; height:80px; object-fit:cover; border-radius:50%; border:4px solid rgba(6,182,212,0.18); padding:3px; box-shadow: 0 10px 30px rgba(6,182,212,0.08); }
 .resume-profile-left { width:96px; height:96px; object-fit:cover; border-radius:50%; border:3px solid rgba(6,182,212,0.18); padding:2px; box-shadow: 0 8px 20px rgba(6,182,212,0.06); margin-right:12px }

@@ -1,0 +1,73 @@
+:root {
+  --primary: #7c3aed; /* purple accent */
+  --accent: #06b6d4;  /* cyan accent */
+  --muted: #6b7280;
+  --bg: #f8fafc;
+  --card: #ffffff;
+}
+
+/* Fonts: Inter for body, Poppins for headings */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: var(--bg);
+  color: #0f1724;
+  padding: 28px;
+}
+
+h1, h2, h3, h5 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary);
+  margin-top: 0;
+}
+
+main.container {
+  background: var(--card);
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(15,23,42,0.06);
+}
+
+.text-muted { color: var(--muted) !important }
+ul { margin-left: 18px }
+
+/* Navbar and buttons */
+.navbar .navbar-brand { color: var(--primary); font-family: 'Poppins', sans-serif; font-weight:600 }
+.navbar .nav-link { color: #0f1724 }
+.btn-primary { background: linear-gradient(90deg,var(--primary),var(--accent)); border: none }
+.btn-primary:hover { filter: brightness(.95) }
+
+/* Small layout helpers */
+header { text-align:center }
+footer { opacity: .8 }
+
+/* Highlighted skill style */
+.skill-highlight {
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(6,182,212,0.08);
+  padding: 3px 8px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Company name highlight (Experience) */
+.company-highlight {
+  font-weight: 700;
+  color: var(--primary);
+  background: rgba(124,58,237,0.06);
+  padding: 3px 8px;
+  border-radius: 6px;
+}
+
+/* Icon helpers */
+.icon { width: 16px; height: 16px; vertical-align: middle; margin-right: 6px; }
+.icon-link { display: inline-flex; align-items: center; gap: 6px; }
+
+/* Profile image (circular) */
+.profile-img { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; box-shadow: 0 6px 18px rgba(15,23,42,0.08); }
+.profile-small { width:48px; height:48px; object-fit:cover; border-radius:50%; }
+
+/* Left-aligned profile with highlighted border */
+.header-flex { display:flex; gap:18px; align-items:center }
+.profile-img-left { width:120px; height:120px; object-fit:cover; border-radius:50%; border:4px solid rgba(6,182,212,0.18); padding:3px; box-shadow: 0 10px 30px rgba(6,182,212,0.08); }
+.resume-profile-left { width:96px; height:96px; object-fit:cover; border-radius:50%; border:3px solid rgba(6,182,212,0.18); padding:2px; box-shadow: 0 8px 20px rgba(6,182,212,0.06); margin-right:12px }

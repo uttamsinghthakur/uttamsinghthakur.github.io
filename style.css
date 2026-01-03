@@ -113,3 +113,23 @@ footer {
  font-size: 16px;
  opacity: 1;
 }
+
+/* Mobile Responsive - Tablets (768px and below) */
+@media (max-width: 768px) {
+   .header-flex { flex-direction: column; gap: 12px; align-items: center; }
+   .profile-img-left { width: 100px; height: 100px; }
+   main.container { padding: 16px; margin: 12px; }
+   header { padding: 20px; margin: 12px; }
+   section { padding: 15px; margin: 12px; }
+   .btn-primary { font-size: 0.9rem; padding: 0.4rem 0.8rem; }
+   footer { padding: 20px 16px; margin: 12px; font-size: 14px; }
+ }
+
+/* Mobile Responsive - Small Phones (480px and below) */
+@media (max-width: 480px) {
+   .header-flex { flex-direction: column; gap: 10px; align-items: center; text-align: center; }
+   .profile-img-left { width: 80px; height: 80px; }
+   main.container { padding: 12px; margin: 8px; }
+   h1, h2 { font-size: 1.2rem; }
+   section { padding: 12px; margin: 8px; }
+ }
